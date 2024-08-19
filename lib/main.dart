@@ -11,6 +11,7 @@ import 'package:intl/date_symbol_data_local.dart';
 import 'package:jiffy/jiffy.dart';
 
 void main() async {
+  //
   WidgetsFlutterBinding.ensureInitialized();
 
   await Hive.initFlutter();
